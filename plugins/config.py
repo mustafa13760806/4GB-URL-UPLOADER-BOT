@@ -24,6 +24,6 @@ class Config(object):
     
     OWNER_ID = int(os.environ.get("OWNER_ID", ""))
 
-    AUTH_USERS = [int(i) for i in os.environ.get("AUTH_USERS", "5305133820").split(" ")]
+    AUTH_USERS = [int(i) for i in os.environ.get("AUTH_USERS", "").split(" ")]
     
   
